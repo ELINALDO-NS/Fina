@@ -1,0 +1,100 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Fina.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Fina.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Fina.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Fina.Core/1.0.0": {
+      "type": "project",
+      "path": "../Fina.Core/Fina.Core.csproj",
+      "msbuildProject": "../Fina.Core/Fina.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Fina.Core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Meu_Notebook\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Meu_Notebook\\Documents\\Projetos\\CSHARP\\Fina\\Fina.API\\Fina.Api.csproj",
+      "projectName": "Fina.Api",
+      "projectPath": "C:\\Users\\Meu_Notebook\\Documents\\Projetos\\CSHARP\\Fina\\Fina.API\\Fina.Api.csproj",
+      "packagesPath": "C:\\Users\\Meu_Notebook\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Meu_Notebook\\Documents\\Projetos\\CSHARP\\Fina\\Fina.API\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Meu_Notebook\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\Meu_Notebook\\Documents\\Projetos\\CSHARP\\Fina\\Fina.Core\\Fina.Core.csproj": {
+              "projectPath": "C:\\Users\\Meu_Notebook\\Documents\\Projetos\\CSHARP\\Fina\\Fina.Core\\Fina.Core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

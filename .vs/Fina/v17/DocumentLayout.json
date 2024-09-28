@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Meu_Notebook\\Documents\\Projetos\\CSHARP\\Fina\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2BE525-A75B-4A54-A7F1-2F3532D13120}|Fina.Core\\Fina.Core.csproj|c:\\users\\meu_notebook\\documents\\projetos\\csharp\\fina\\fina.core\\response\\transactions\\updatetransactionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E2BE525-A75B-4A54-A7F1-2F3532D13120}|Fina.Core\\Fina.Core.csproj|solutionrelative:fina.core\\response\\transactions\\updatetransactionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2BE525-A75B-4A54-A7F1-2F3532D13120}|Fina.Core\\Fina.Core.csproj|c:\\users\\meu_notebook\\documents\\projetos\\csharp\\fina\\fina.core\\response\\transactions\\gettransactionsbyperiodrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E2BE525-A75B-4A54-A7F1-2F3532D13120}|Fina.Core\\Fina.Core.csproj|solutionrelative:fina.core\\response\\transactions\\gettransactionsbyperiodrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UpdateTransactionRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Meu_Notebook\\Documents\\Projetos\\CSHARP\\Fina\\Fina.Core\\Response\\Transactions\\UpdateTransactionRequest.cs",
+              "RelativeDocumentMoniker": "Fina.Core\\Response\\Transactions\\UpdateTransactionRequest.cs",
+              "ToolTip": "C:\\Users\\Meu_Notebook\\Documents\\Projetos\\CSHARP\\Fina\\Fina.Core\\Response\\Transactions\\UpdateTransactionRequest.cs",
+              "RelativeToolTip": "Fina.Core\\Response\\Transactions\\UpdateTransactionRequest.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAcwAsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T20:17:20.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetTransactionsByPeriodRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Meu_Notebook\\Documents\\Projetos\\CSHARP\\Fina\\Fina.Core\\Response\\Transactions\\GetTransactionsByPeriodRequest.cs",
+              "RelativeDocumentMoniker": "Fina.Core\\Response\\Transactions\\GetTransactionsByPeriodRequest.cs",
+              "ToolTip": "C:\\Users\\Meu_Notebook\\Documents\\Projetos\\CSHARP\\Fina\\Fina.Core\\Response\\Transactions\\GetTransactionsByPeriodRequest.cs",
+              "RelativeToolTip": "Fina.Core\\Response\\Transactions\\GetTransactionsByPeriodRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T20:14:09.265Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
