@@ -6,14 +6,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Fina.Core.Response.Categories
+namespace Fina.Core.Requests.Categories
 {
-    public class CreateCategoryRequest:Request
+    public class UpdateCategoryRequest : Request
     {
-        [Required(ErrorMessage ="Título invalido")]
-        [MaxLength(80,ErrorMessage ="O titulo de conter no maxio 80 caracteres")]
+        public long Id { get; set; }
+        [Required(ErrorMessage = "Título Invalido")]
+        [MaxLength(80, ErrorMessage = "O titulo de conter no maxio 80 caracteres")]
         public string Title { get; set; } = string.Empty;
-        [Required(ErrorMessage = "Descrição Invalida")]
+        [MaxLength(ErrorMessage = "Descrição invalida")]
         public string Description { get; set; } = string.Empty;
     }
 }

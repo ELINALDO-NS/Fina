@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Fina.Core.Response.Transactions
+namespace Fina.Core.Requests.Transactions
 {
-    public class GetTransactionByIdRequest:Request
+    public class DeleteTransactionRequest : Request
     {
         public long Id { get; set; }
     }

@@ -5,10 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Fina.Core.Response.Transactions
+namespace Fina.Core.Requests.Categories
 {
-    public class DeleteTransactionRequest:Request
+    public class GetAllCategoriesRequest : PagedRequest
     {
-        public long Id { get; set; }
+
     }
 }

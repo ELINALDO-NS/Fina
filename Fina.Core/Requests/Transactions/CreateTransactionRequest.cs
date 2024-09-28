@@ -7,11 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Fina.Core.Response.Transactions
+namespace Fina.Core.Requests.Transactions
 {
-    public class UpdateTransactionRequest:Request
+    public class CreateTransactionRequest : Request
     {
-        public long Id { get; set; }
         [Required(ErrorMessage = "Título Invalido")]
         public string Title { get; set; }
         [Required(ErrorMessage = "Tipo invalido")]

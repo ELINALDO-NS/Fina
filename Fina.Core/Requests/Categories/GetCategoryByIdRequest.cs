@@ -6,11 +6,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Fina.Core.Response.Categories
+namespace Fina.Core.Requests.Categories
 {
-    public class GetCategoryByIdRequest:Request
+    public class GetCategoryByIdRequest : Request
     {
-        [Required(ErrorMessage ="É necessario informar o Id da categoria")]
+        [Required(ErrorMessage = "É necessario informar o Id da categoria")]
         public long Id { get; set; }
     }
 }

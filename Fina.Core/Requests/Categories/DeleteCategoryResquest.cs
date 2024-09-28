@@ -6,11 +6,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Fina.Core.Response.Categories
+namespace Fina.Core.Requests.Categories
 {
-    public class DeleteCategoryResquest:Request
+    public class DeleteCategoryResquest : Request
     {
-        [Required(ErrorMessage ="É necessario informar um Id para exclusão")]
+        [Required(ErrorMessage = "É necessario informar um Id para exclusão")]
         public long Id { get; set; }
     }
 }

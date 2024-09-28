@@ -8,6 +8,7 @@ namespace Fina.Core
 {
     static class Configuration
     {
+        public const int DefaultSatatusCode = 200;
         public const int DefaultPageNumeber = 1;
         public const int DefaultPageSize = 25;
     }
