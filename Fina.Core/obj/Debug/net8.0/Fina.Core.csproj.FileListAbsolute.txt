@@ -5,6 +5,7 @@ C:\Users\Meu_Notebook\Documents\Projetos\CSHARP\Fina\Fina.Core\obj\Debug\net8.0\
 C:\Users\Meu_Notebook\Documents\Projetos\CSHARP\Fina\Fina.Core\obj\Debug\net8.0\Fina.Core.AssemblyInfoInputs.cache
 C:\Users\Meu_Notebook\Documents\Projetos\CSHARP\Fina\Fina.Core\obj\Debug\net8.0\Fina.Core.AssemblyInfo.cs
 C:\Users\Meu_Notebook\Documents\Projetos\CSHARP\Fina\Fina.Core\obj\Debug\net8.0\Fina.Core.csproj.CoreCompileInputs.cache
+C:\Users\Meu_Notebook\Documents\Projetos\CSHARP\Fina\Fina.Core\obj\Debug\net8.0\Fina.Core.sourcelink.json
 C:\Users\Meu_Notebook\Documents\Projetos\CSHARP\Fina\Fina.Core\obj\Debug\net8.0\Fina.Core.dll
 C:\Users\Meu_Notebook\Documents\Projetos\CSHARP\Fina\Fina.Core\obj\Debug\net8.0\refint\Fina.Core.dll
 C:\Users\Meu_Notebook\Documents\Projetos\CSHARP\Fina\Fina.Core\obj\Debug\net8.0\Fina.Core.pdb

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Fina.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+25d213526f0312fb3ad89479d16c4ab837e12ff6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+069e573aef1d0ef3a46bd6b2391edeea16609b96")]
 [assembly: System.Reflection.AssemblyProductAttribute("Fina.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Fina.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
