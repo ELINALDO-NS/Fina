@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Meu_Notebook\\Documents\\Projetos\\CSHARP\\Fina\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8E2BE525-A75B-4A54-A7F1-2F3532D13120}|Fina.Core\\Fina.Core.csproj|c:\\users\\meu_notebook\\documents\\projetos\\csharp\\fina\\fina.core\\response\\pagedresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E2BE525-A75B-4A54-A7F1-2F3532D13120}|Fina.Core\\Fina.Core.csproj|solutionrelative:fina.core\\response\\pagedresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D73C83FB-EDC2-4035-BD31-19D7E286EED3}|Fina.API\\Fina.Api.csproj|c:\\users\\meu_notebook\\documents\\projetos\\csharp\\fina\\fina.api\\endpoints\\transaction\\updatetansactionendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D73C83FB-EDC2-4035-BD31-19D7E286EED3}|Fina.API\\Fina.Api.csproj|solutionrelative:fina.api\\endpoints\\transaction\\updatetansactionendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D73C83FB-EDC2-4035-BD31-19D7E286EED3}|Fina.API\\Fina.Api.csproj|c:\\users\\meu_notebook\\documents\\projetos\\csharp\\fina\\fina.api\\endpoints\\categories\\updatecategoryendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D73C83FB-EDC2-4035-BD31-19D7E286EED3}|Fina.API\\Fina.Api.csproj|solutionrelative:fina.api\\endpoints\\categories\\updatecategoryendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D73C83FB-EDC2-4035-BD31-19D7E286EED3}|Fina.API\\Fina.Api.csproj|c:\\users\\meu_notebook\\documents\\projetos\\csharp\\fina\\fina.api\\endpoints\\transaction\\gettansactionbyperiodendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D73C83FB-EDC2-4035-BD31-19D7E286EED3}|Fina.API\\Fina.Api.csproj|solutionrelative:fina.api\\endpoints\\transaction\\gettansactionbyperiodendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D73C83FB-EDC2-4035-BD31-19D7E286EED3}|Fina.API\\Fina.Api.csproj|c:\\users\\meu_notebook\\documents\\projetos\\csharp\\fina\\fina.api\\endpoints\\transaction\\gettansactionbyidendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D73C83FB-EDC2-4035-BD31-19D7E286EED3}|Fina.API\\Fina.Api.csproj|solutionrelative:fina.api\\endpoints\\transaction\\gettansactionbyidendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D73C83FB-EDC2-4035-BD31-19D7E286EED3}|Fina.API\\Fina.Api.csproj|c:\\users\\meu_notebook\\documents\\projetos\\csharp\\fina\\fina.api\\endpoints\\categories\\getbyidendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D73C83FB-EDC2-4035-BD31-19D7E286EED3}|Fina.API\\Fina.Api.csproj|solutionrelative:fina.api\\endpoints\\categories\\getbyidendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +39,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PagedResponse.cs",
-              "DocumentMoniker": "C:\\Users\\Meu_Notebook\\Documents\\Projetos\\CSHARP\\Fina\\Fina.Core\\Response\\PagedResponse.cs",
-              "RelativeDocumentMoniker": "Fina.Core\\Response\\PagedResponse.cs",
-              "ToolTip": "C:\\Users\\Meu_Notebook\\Documents\\Projetos\\CSHARP\\Fina\\Fina.Core\\Response\\PagedResponse.cs",
-              "RelativeToolTip": "Fina.Core\\Response\\PagedResponse.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Title": "UpdateTansactionEndPoint.cs",
+              "DocumentMoniker": "C:\\Users\\Meu_Notebook\\Documents\\Projetos\\CSHARP\\Fina\\Fina.Api\\EndPoints\\Transaction\\UpdateTansactionEndPoint.cs",
+              "RelativeDocumentMoniker": "Fina.Api\\EndPoints\\Transaction\\UpdateTansactionEndPoint.cs",
+              "ToolTip": "C:\\Users\\Meu_Notebook\\Documents\\Projetos\\CSHARP\\Fina\\Fina.Api\\EndPoints\\Transaction\\UpdateTansactionEndPoint.cs",
+              "RelativeToolTip": "Fina.Api\\EndPoints\\Transaction\\UpdateTansactionEndPoint.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA1wA0AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T00:48:29.333Z",
+              "WhenOpened": "2024-10-02T00:32:02.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UpdateCategoryEndPoint.cs",
+              "DocumentMoniker": "C:\\Users\\Meu_Notebook\\Documents\\Projetos\\CSHARP\\Fina\\Fina.Api\\EndPoints\\Categories\\UpdateCategoryEndPoint.cs",
+              "RelativeDocumentMoniker": "Fina.Api\\EndPoints\\Categories\\UpdateCategoryEndPoint.cs",
+              "ToolTip": "C:\\Users\\Meu_Notebook\\Documents\\Projetos\\CSHARP\\Fina\\Fina.Api\\EndPoints\\Categories\\UpdateCategoryEndPoint.cs",
+              "RelativeToolTip": "Fina.Api\\EndPoints\\Categories\\UpdateCategoryEndPoint.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T00:31:52.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetTansactionByPeriodEndPoint.cs",
+              "DocumentMoniker": "C:\\Users\\Meu_Notebook\\Documents\\Projetos\\CSHARP\\Fina\\Fina.Api\\EndPoints\\Transaction\\GetTansactionByPeriodEndPoint.cs",
+              "RelativeDocumentMoniker": "Fina.Api\\EndPoints\\Transaction\\GetTansactionByPeriodEndPoint.cs",
+              "ToolTip": "C:\\Users\\Meu_Notebook\\Documents\\Projetos\\CSHARP\\Fina\\Fina.Api\\EndPoints\\Transaction\\GetTansactionByPeriodEndPoint.cs",
+              "RelativeToolTip": "Fina.Api\\EndPoints\\Transaction\\GetTansactionByPeriodEndPoint.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCoAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T00:23:58.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetTansactionByIdEndPoint.cs",
+              "DocumentMoniker": "C:\\Users\\Meu_Notebook\\Documents\\Projetos\\CSHARP\\Fina\\Fina.Api\\EndPoints\\Transaction\\GetTansactionByIdEndPoint.cs",
+              "RelativeDocumentMoniker": "Fina.Api\\EndPoints\\Transaction\\GetTansactionByIdEndPoint.cs",
+              "ToolTip": "C:\\Users\\Meu_Notebook\\Documents\\Projetos\\CSHARP\\Fina\\Fina.Api\\EndPoints\\Transaction\\GetTansactionByIdEndPoint.cs",
+              "RelativeToolTip": "Fina.Api\\EndPoints\\Transaction\\GetTansactionByIdEndPoint.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA1wBYAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T00:20:43.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetByIdEndPoint.cs",
+              "DocumentMoniker": "C:\\Users\\Meu_Notebook\\Documents\\Projetos\\CSHARP\\Fina\\Fina.Api\\EndPoints\\Categories\\GetByIdEndPoint.cs",
+              "RelativeDocumentMoniker": "Fina.Api\\EndPoints\\Categories\\GetByIdEndPoint.cs",
+              "ToolTip": "C:\\Users\\Meu_Notebook\\Documents\\Projetos\\CSHARP\\Fina\\Fina.Api\\EndPoints\\Categories\\GetByIdEndPoint.cs",
+              "RelativeToolTip": "Fina.Api\\EndPoints\\Categories\\GetByIdEndPoint.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T00:20:27.092Z",
               "EditorCaption": ""
             }
           ]
