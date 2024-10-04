@@ -11,5 +11,9 @@ namespace Fina.Core
         public const int DefaultSatatusCode = 200;
         public const int DefaultPageNumeber = 1;
         public const int DefaultPageSize = 25;
+
+
+        public static string BackEndUrl { get; set; } = string.Empty;
+        public static string FrontEndUrl { get; set; } = string.Empty;
     }
 }

@@ -13,11 +13,11 @@ namespace Fina.Core.Response
         [JsonConstructor]
         public Response() => _Code = Configuration.DefaultSatatusCode;
         
-        public Response(TData? Data,int Code = Configuration.DefaultSatatusCode, string? Message = null)
+        public Response(TData? _Data,int Code = Configuration.DefaultSatatusCode, string? _Message = null)
         {
             _Code = Code;
-            Data = Data;
-            Message = Message;
+            Data = _Data;
+            Message = _Message;
         }
         private int _Code = Configuration.DefaultSatatusCode;
         public string? Message { get; set; }

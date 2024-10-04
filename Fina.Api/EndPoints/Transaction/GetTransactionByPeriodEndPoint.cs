@@ -9,7 +9,7 @@ using Fina.Core.Requests.Transactions;
 
 namespace Fina.Api.EndPoints.Transaction
 {
-    public class GetTansactionByPeriodEndPoint:IEndpoint
+    public class GetTransactionByPeriodEndPoint:IEndpoint
     {
 
         public static void Map(IEndpointRouteBuilder app)

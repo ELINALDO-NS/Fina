@@ -6,7 +6,7 @@ using Fina.Core.Response;
 
 namespace Fina.Api.EndPoints.Categories
 {
-    public class GetByIdEndPoint : IEndpoint
+    public class GetCategoriaByIdEndPoint : IEndpoint
     {
         public static void Map(IEndpointRouteBuilder app)
        => app.MapGet("/{id}", HandleAsync).

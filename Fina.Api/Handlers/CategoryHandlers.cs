@@ -36,7 +36,7 @@ namespace Fina.Api.Handlers
                Console.WriteLine(ex.ToString());
                 throw;
             }
-            return new Response<Category>(category,201,null);
+            return new Response<Category>(category,201,"Categoria criada com sucesso !");
         }
 
         public async Task<Response<Category?>> DeleteAsync(DeleteCategoryResquest request)
@@ -52,7 +52,7 @@ namespace Fina.Api.Handlers
 
                Context.Categories.Remove(category);
                 await Context.SaveChangesAsync();
-                return new Response<Category?>(category, Message: "Categoria Excluida");
+                return new Response<Category?>(category, _Message: "Categoria Excluida");
             }
             catch (Exception ex)
             {
@@ -119,7 +119,7 @@ namespace Fina.Api.Handlers
                 category.Description = request.Description;
                 Context.Categories.Update(category);
                await Context.SaveChangesAsync();
-                return new Response<Category?>(category, Message: "Categoria Atualizada");
+                return new Response<Category?>(category, _Message: "Categoria Atualizada");
             }
             catch (Exception ex)
             {

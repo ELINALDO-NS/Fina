@@ -57,7 +57,7 @@ namespace Fina.Api.Handlers
 
                 Context.Remove(transaction);
                 await Context.SaveChangesAsync();
-                return new Response<Core.Model.Transaction?>(null,Message:"Transação excluida com suceso !");
+                return new Response<Core.Model.Transaction?>(null,_Message:"Transação excluida com suceso !");
 
             }
             catch (Exception ex)
@@ -71,7 +71,7 @@ namespace Fina.Api.Handlers
         {
             try
             {
-                var transaction = await Context.Transactions.FirstOrDefaultAsync(x=>x.UserId == request.UserId && x.Id == request.Id);
+                var transaction = await Context.Transactions.Include(x => x.Category).FirstOrDefaultAsync(x=>x.UserId == request.UserId && x.Id == request.Id);
                 if (transaction is null)
                 {
                     return new Response<Core.Model.Transaction?>(null,404,"Transação não encontrada !");

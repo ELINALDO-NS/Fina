@@ -19,6 +19,7 @@ namespace Fina.Api.EndPoints.Transaction
 
         private static async Task<IResult> HandleAsync(ITransactionHandler handler, CreateTransactionRequest request)
         {
+           
             request.UserId = ApisConfiguration.UserId;
             var respose = await handler.CreateAsync(request);
 
